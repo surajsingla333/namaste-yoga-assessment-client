@@ -1,0 +1,212 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.modal-z-99999 {
+    z-index: 99999;
+}
+
+.highlighted-class {
+    background-color: #8d5524;
+    color: white !important;
+    border-radius: 50%;
+}
+.highlighted-today {
+    border-bottom: 5px solid #da8592 !important;
+    border: 1px solid #da8592;
+    border-radius: 50%;
+}
+
+.current-user-hightlighted-class {
+    background-color: #f0b4c1 !important;
+    color: white !important;
+    border-radius: 50%;
+}
+
+.today_color_calender {
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    border-bottom: 5px solid #da8592 !important;
+    border: 1px solid #da8592;
+}
+
+.current_user_color_calender {
+    height: 25px;
+    width: 25px;
+    background-color: #f0b4c1 !important;
+    color: white !important;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.other_bookings_color_calender {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    background-color: #8d5524;
+    color: white !important;
+    border-radius: 50%;
+}
+
+.selected_date_color_calender {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    background-color: #FFDBAC;
+    color: white !important;
+    border-radius: 50%;
+}
+
+.p_0 {
+    padding: 0px;
+}
+
+.m_0 {
+    margin: 0px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-direction-col {
+    flex-direction: column;
+}
+
+.justify_content_center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.pl_16 {
+    padding-left: 16px;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.bg_pink_100 {
+    background: #f0dfd6;
+}
+
+.header_login_button {
+    color: black;
+    background-color: transparent;
+    background-image: none;
+    border-color: black;
+}
+
+.header_login_button:hover {
+    color: white;
+    background-color: #da8592;
+    background-image: none;
+    border-color: #da8592;
+}
+
+.text_underline {
+    text-decoration: underline;
+}
+
+.text_capitalize {
+    text-transform: capitalize;
+}
+
+.text_dark {
+    color: #8d5524;
+}
+
+.pt_16 {
+    padding-top: 16px;
+}
+
+.p_16{
+    padding: 16px;
+}
+
+.mb_16{
+    margin-bottom: 16px
+}
+
+.button_primary {
+    color: white;
+    background-color: #8d5524;
+    background-image: none;
+    border-color: #8d5524;
+}
+
+.button_primary:hover {
+    color: #8d5524;
+    background-color: transparent;
+    background-image: none;
+    border-color: #8d5524;
+}
+
+.button_secondary {
+    color: white;
+    background-color: #f0b4c1;
+    background-image: none;
+    border-color: #f0b4c1;
+}
+
+.button_secondary:hover {
+    color: #f0b4c1;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f0b4c1;
+}
+
+@media (max-width: 575px){
+    .p_sm_0{
+        padding: 0px;
+    }
+}
+
+.text-danger {
+    color: #dc3545!important
+}
